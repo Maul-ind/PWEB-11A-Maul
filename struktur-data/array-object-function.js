@@ -45,7 +45,9 @@ console.log(kelas11A[2](kelas11A[0])); // ambil parameter function dari array ya
 // panggil langsung function nya pake tanda siku []
 
 // Chalengges
-console.info("CHALENGGES");
+console.info(
+  "TUGASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS/CHALEENGESSSSSSSSSSSSSSSSSSSSSSSSS",
+);
 // Buat satu variable baru, dengan nama dataSuhu, elemen 1 sampai 2 adalah number
 // kemudian elemen ke 3 dan 4 adalah function
 // elemen 3 adalah function yang konversi elemen 1 dari celcius ke fahrenheit
