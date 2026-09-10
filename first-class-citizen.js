@@ -53,3 +53,5 @@ console.log(double(100));
 console.log(triple(100));
 console.log(resultDouble);
 console.log(resultTripel);
+
+// FUnction bisa di dalam array atau object atau array object / object array
