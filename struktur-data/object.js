@@ -122,3 +122,5 @@ console.info(
 const { masaBerlaku = 10 } = account;
 console.log(masaBerlaku);
 console.log(account);
+
+// apakah Bisa function menyimpan properti
