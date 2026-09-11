@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    .btn {
+      color: #00ffff;
+      padding: 10px 10px;
+      background-color: black;
+      border: 1px solid aqua;
+      border-radius: 10px;
+      margin: 10px;
+    }
+
+    .judulBerubah {
+      color: red;
+    }
+
+    .gambar {
+      width: 10%;
+      height: 10%;
+    }
+  </style>
+
+  <body>
+    <button class="btn">Klik Saya</button>
+    <h1 id="judul">Belum Diklik</h1>
+
+    <button id="btn-gambar" class="btn">Ganti Gambar</button>
+    <img class="gambar" src="./apel.webp" alt="" />
+
+    <script>
+      const btn = document.querySelector(".btn");
+      const judul = document.querySelector("#judul");
+      const btnGambar = document.querySelector("#btn-gambar");
+      const gambar = document.querySelector(".gambar");
+
+      btn.addEventListener("click", function () {
+        judul.textContent = "Tombol Berhasil di klik";
+        judul.className = "judulBerubah";
+
+        // click nambah
+      });
+
+      btnGambar.addEventListener("click", () => {
+        gambar.src =
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcXl7VyzPJ3u5jya0J0H7FvHrvytES7bkvF98NBlWHdCtAMqEMo47LGkyx&s=10";
+      });
+    </script>
+  </body>
+</html>

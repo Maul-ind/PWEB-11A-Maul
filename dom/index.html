@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BELAJAR DOM</title>
+  </head>
+
+  <body>
+    <h1 id="judul">Apa itu DOM?</h1>
+    <!-- DOM (Document Object Model) adalah antarmuka pemrograman untuk dokumen HTML dan Javascript -->
+    <p id="artinya"></p>
+
+    <p class="sub-art"></p>
+
+    hs
+
+    <script>
+      // 1. getElementById
+      const artinya = document.getElementById("artinya"); // ini berupa document/object
+      // isi konten dari js
+      artinya.textContent =
+        " DOM (Document Object Model) adalah antarmuka pemrograman untuk dokumen HTML dan Javascript ";
+
+      // 2. querySelector
+
+      const artinyaP = document.querySelector("#judul"); // contoh pake id
+      artinyaP.textContent = "Contoh perubahan menggunakan query selector";
+
+      const subArti = document.querySelector(".sub-art"); // pakai tanda di awal sesuai atribut
+      //   tanda query selector
+      // 1. kalau atribut class itu pakai titik (.)
+      // 2. kalau atribut id itu pakai titik (#)
+      subArti.textContent = "Contoh penggunaan querySelector";
+
+      //
+    </script>
+  </body>
+</html>
